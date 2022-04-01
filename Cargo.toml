@@ -1,0 +1,10 @@
+[package]
+name = "bevy-tic-tac-toe"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = { git = "https://github.com/bevyengine/bevy", rev = "c893b992240fc058fd118c8247c70233931ec759" }
+rand = "0.8.4"
